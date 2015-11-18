@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/joseph/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/joseph/Documents/Android studio model/aolozip/AOLO/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-1deb667a6e901252860306cacdde6b15e8aa30bc.jar" />
+    </item>
+    <item
+        jar="/Users/joseph/Documents/Android studio model/aolozip/AOLO/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b06fd24c136011eeeb24ac056623c93fdd53b5fa">
+        <dex dex="/Users/joseph/Documents/Android studio model/aolozip/AOLO/app/build/intermediates/pre-dexed/debug/volley-14cb39e6674cd3276d291de6b90e4a7acb64ad2d.jar" />
+    </item>
+    <item
+        jar="/Users/joseph/Documents/Android studio model/aolozip/AOLO/app/libs/nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/joseph/Documents/Android studio model/aolozip/AOLO/app/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0-b7218e86a3c912f9743acce9ebfeeb4153facc3d.jar" />
+    </item>
+
+</items>
