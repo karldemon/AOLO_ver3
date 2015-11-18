@@ -18,7 +18,7 @@ import java.util.Map;
 
 public class RoutineCmdFragment extends Fragment {
 
-	private ListView listLikeRoute;
+	private ListView cmdList;
 	private SimpleAdapter adapter;
 	private static final String[] fromCmd={"img","title","length","builder"};
 	private static final int[] toCmd={R.id.routineCmdImg,R.id.routineCmdTitle,R.id.routineCmdLength,R.id.routineCmdBuilder};
@@ -28,7 +28,13 @@ public class RoutineCmdFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View view=inflater.inflate(R.layout.fragment_cmd_routine, container, false);
+
+
+		cmdList=(ListView)view.findViewById(R.id.cmdList);
+
+		changeList();
 		return view;
+
 	}
 	private void changeList(){
 
@@ -41,11 +47,11 @@ public class RoutineCmdFragment extends Fragment {
 
 		rDataCmd.add(rMap);
 
-		adapter=new SimpleAdapter(getActivity(),rDataCmd,R.layout.fragment_like_routine_list,fromCmd,toCmd);
+		adapter=new SimpleAdapter(getActivity(),rDataCmd,R.layout.fragment_cmd_routine_list,fromCmd,toCmd);
 
-		listLikeRoute.setAdapter(adapter);
+		cmdList.setAdapter(adapter);
 
-		listLikeRoute.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+		cmdList.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
 			@Override
 			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 
