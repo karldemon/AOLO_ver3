@@ -96,16 +96,17 @@ public final class R {
         public static final int tab_left_press=0x7f02003b;
         public static final int tab_right_press=0x7f02003c;
         public static final int test=0x7f02003d;
-        public static final int textcolor=0x7f02003e;
-        public static final int textview=0x7f02003f;
-        public static final int title_bar_menu=0x7f020040;
-        public static final int title_bar_menu_on=0x7f020041;
-        public static final int title_btn_function=0x7f020042;
-        public static final int title_function_bg=0x7f020043;
-        public static final int titlebar_menu_selector=0x7f020044;
-        public static final int wp_text_selector=0x7f020045;
-        public static final int xx_selector=0x7f020046;
-        public static final int zc_selector=0x7f020047;
+        public static final int testimg=0x7f02003e;
+        public static final int textcolor=0x7f02003f;
+        public static final int textview=0x7f020040;
+        public static final int title_bar_menu=0x7f020041;
+        public static final int title_bar_menu_on=0x7f020042;
+        public static final int title_btn_function=0x7f020043;
+        public static final int title_function_bg=0x7f020044;
+        public static final int titlebar_menu_selector=0x7f020045;
+        public static final int wp_text_selector=0x7f020046;
+        public static final int xx_selector=0x7f020047;
+        public static final int zc_selector=0x7f020048;
     }
     public static final class id {
         public static final int account=0x7f0a0005;
