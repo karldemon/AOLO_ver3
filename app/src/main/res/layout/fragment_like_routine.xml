@@ -8,10 +8,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DangQianJieYueFragment" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/routinea" />
+   <ListView
+
+       android:id="@+id/listLikeRoute"
+       android:layout_width="300dp"
+       android:layout_height="match_parent"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true">
+
+
+   </ListView>
 
 </RelativeLayout>
-<!-- From: file:/Users/joseph/Documents/Android%20studio%20model/aolozip/AOLO/app/src/main/res/layout/fragment_a_routine.xml -->

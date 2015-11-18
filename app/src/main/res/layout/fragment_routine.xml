@@ -79,7 +79,7 @@
                 android:background="@drawable/radio_zone_hot_selector"
                 android:button="@null"
                 android:gravity="center"
-                android:text="@string/routineA"
+                android:text="@string/likeRoutine"
                 android:textColor="@drawable/wp_text_selector"
                 android:textSize="15.0sp"
                 />
@@ -91,7 +91,7 @@
                 android:background="@drawable/radio_zone_hot_selector"
                 android:button="@null"
                 android:gravity="center"
-                android:text="@string/routineB"
+                android:text="@string/cmdRoutine"
                 android:textColor="@drawable/wp_text_selector"
                 android:textSize="15.0sp"
                 />
@@ -103,7 +103,7 @@
                 android:background="@drawable/radio_zone_hot_selector"
                 android:button="@null"
                 android:gravity="center"
-                android:text="@string/routineC"
+                android:text="@string/designRoutine"
                 android:textColor="@drawable/wp_text_selector"
                 android:textSize="15.0sp"
                 />

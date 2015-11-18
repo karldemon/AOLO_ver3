@@ -44,9 +44,9 @@ public class RoutineFragment extends Fragment implements OnCheckedChangeListener
         iv_add = (ImageView) view.findViewById(R.id.iv_add);
 
         list = new ArrayList<Fragment>();
-        RoutineAFragment routineAFragment = new RoutineAFragment();
-        RoutineBFragment routineBFragment = new RoutineBFragment();
-        RoutineCFragment routineCFragment = new RoutineCFragment();
+        RoutineLikeFragment routineAFragment = new RoutineLikeFragment();
+        RoutineCmdFragment routineBFragment = new RoutineCmdFragment();
+        RoutineDesignFragment routineCFragment = new RoutineDesignFragment();
         list.add(routineAFragment);
         list.add(routineBFragment);
         list.add(routineCFragment);

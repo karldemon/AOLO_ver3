@@ -52,15 +52,15 @@
         </activity>
 
         <activity
-            android:name="com.library.fragment.RoutineAFragment"
+            android:name="com.library.fragment.RoutineLikeFragment"
             android:label="@string/RoutineAFragment" >
         </activity>
         <activity
-            android:name="com.library.fragment.RoutineBFragment"
+            android:name="com.library.fragment.RoutineCmdFragment"
             android:label="@string/RoutineBFragment" >
         </activity>
         <activity
-            android:name="com.library.fragment.RoutineCFragment"
+            android:name="com.library.fragment.RoutineDesignFragment"
             android:label="@string/RoutineCFragment" >
         </activity>
         <activity
