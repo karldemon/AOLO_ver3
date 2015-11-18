@@ -52,10 +52,12 @@ public class RoutineLikeFragment extends Fragment {
 
 		listLikeRoute.setAdapter(adapter);
 
-		listLikeRoute.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+		listLikeRoute.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
 			@Override
-			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
 				Log.i("KK","++");
+				return false;
 			}
 		});
 
