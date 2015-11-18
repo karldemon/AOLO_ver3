@@ -55,7 +55,7 @@ public class RoutineCmdFragment extends Fragment {
 			@Override
 			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 
-				Log.i("KK", "test");
+				Log.i("KK", "123123123");
 				return false;
 			}
 		});
