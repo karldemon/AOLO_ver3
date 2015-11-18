@@ -13,7 +13,7 @@
         android:id="@+id/cmdImg"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/photo"
+        android:background="@drawable/testImg"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
          />
