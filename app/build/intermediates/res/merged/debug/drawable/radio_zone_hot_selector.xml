@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/tab_right_press" android:state_checked="true"/>
     <item android:drawable="@color/transparent"/>
 
-</selector><!-- From: file:/Users/joseph/Documents/Android%20studio%20model/aolozip/AOLO/app/src/main/res/drawable/radio_zone_hot_selector.xml -->
+</selector><!-- From: file:/Users/ChiaChia/GitHub/AOLO_ver3/app/src/main/res/drawable/radio_zone_hot_selector.xml -->
